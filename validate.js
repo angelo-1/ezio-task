@@ -22,7 +22,7 @@ console.log(categoryOne,categoryTwo,"check");
                     $('#successNote').html('Created Successfully');
                     $('#errorNote').html('');
                     setTimeout(function () {
-                        window.location.href = "task.php";
+                        window.location.href = "index.php";
                     }, 2500);
                 } else {
                     $('#successNote').html('');
